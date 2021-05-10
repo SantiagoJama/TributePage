@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans&family=Slabo+27px&display=swap');
+/* 
+    Aclaración importante:
+
+    Desarrollado por; Santiago Jama, como solución a los proyectos 
+    propuestos en el curso llevado a cabo en FreeCodeCamp. 
+
+    Los diseños pertenecen a la organización FreeCodeCamp. 
+    FreeCodeCamp provee los diseños como muestra, según los requerimientos (user stories) de los proyectos.
+
+    Todo el HTML y el CSS es de mi autoría.
+*/
+*{
+    margin: 0px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+#main{
+    background-color: rgb(232, 235, 237);
+    padding: 0;
+}
+
+#title{
+    font-size: 3rem;
+    font-family: 'Oswald';
+    text-align: center;
+}
+    .sub-message{
+        font-size: 1.6rem;
+        font-family: 'Open Sans Condensed';
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+    }
+
+#img-div{
+    margin: auto;
+    background-color: white;
+    max-width: 100%;
+    padding: 3em 9em 0em 9em;
+   
+}
+    #img-caption{
+        text-align: center;
+        font-family:'Open Sans';
+    }
+
+#image{
+    margin: auto;
+    max-width: 100%;
+    display: block;
+    
+}
+
+#tribute-info{
+    display: grid;
+    font-family: 'Lora';
+    line-height: 170%;
+    grid-template-columns: 2fr;
+    grid-template-rows: 2fr;
+    justify-items: center;
+}
+    h2{
+        margin-top: 1.5em;
+        margin-bottom: 1.5em;
+    }
+    
+        ul{
+            max-width: 40em;
+        }
+
+    ul > li{
+        text-align: justify;
+    }
+    blockquote{
+        font-family: 'Lora';
+        margin-top: 1.5em;
+        width: 40em;
+    }
+
+    .final-message{
+        margin-top: 1.5em;
+        font-size: 1.1rem;
+    }
+        #tribute-link{
+            text-decoration: none;
+            font-size: 1.2rem;
+            color: rgb(48, 142, 250);
+        }
+@media (max-width: 700px){
+    .content{
+         max-width: 25em;
+    }
+
+}
